@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+#menu{
+    background-color: rgb(233, 159, 173);
+}
+
+#navegacion li a{
+    font-weight: 500;
+    color: white;
+}
+
+.inicio{
+    height: 100vh;
+    background-image: url(../images/floreria-haciendo-arreglo-floral-tienda-flores_53876-34631.jpg);
+    background-size: cover;
+}
+
+.inicio-titulo{
+    color: white;
+    margin-top: 50%;
+}
+
+.eventos img{
+    max-width: 400px;
+}
+
+#logo{
+    max-width: 90px
+}
+
+#redesSociales li{
+    list-style: none;
+}
+
+#redesSociales li a i{
+    filter:grayscale(1) ;
+}
