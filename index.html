@@ -60,30 +60,30 @@
         <div class="conteiner">
             <h2 class="text-center mt-5">Eventos que manejamos</h2>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="text-center border rounded h-100 p-3">
-                        <img src="images/15anios.webp" alt="Fiestas de 15 años">
+                <div class="col-md-3">
+                    <div class="text-center rounded h-100 p-3">
+                        <img class="img-fluid mb-3" src="images/15anios.webp" alt="Fiestas de 15 años">
                         <h5>15 años.</h5>
                         <p class="text-muted small">Son las mejores para embellecer el momento</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="text-center border rounded h-100 p-3">
-                        <img src="images/boda.webp" alt="Bodas">
+                <div class="col-md-3">
+                    <div class="text-center rounded h-100 p-3">
+                        <img class="img-fluid mb-3" src="images/boda.webp" alt="Bodas">
                         <h5>Bodas</h5>
                         <p class="text-muted small">Para los enamorados y ese gran evento</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="text-center border rounded h-100 p-3">
-                        <img src="images/funeral.webp" alt="Funeral">
+                <div class="col-md-3">
+                    <div class="text-center rounded h-100 p-3">
+                        <img class="img-fluid mb-3" src="images/funeral.webp" alt="Funeral">
                         <h5>Funerales</h5>
                         <p class="text-muted small">Para despedir con plenitud a tus seres queridos</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="text-center border rounded h-100 p-3">
-                        <img src="images/graduacion.webp" alt="Graduaciones">
+                <div class="col-md-3">
+                    <div class="text-center rounded h-100 p-3">
+                        <img class="img-fluid mb-3" src="images/graduacion.webp" alt="Graduaciones">
                         <h5>Graduaciones</h5>
                         <p class="text-muted small">Para celebrar el fin de los estudios</p>
                     </div>
@@ -94,20 +94,195 @@
 
     <!--Galeria-->
     <section>
+        <div class="galeria bg-light py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Nuestro Catalogo</h2>
+                <!--data-bs-ride="carousel" provoca que se mueva solo entre vistas cuando el cursor no esta sobre la zona
+                    class="carousel-fade" provoca que la transición entre vistas sea con fundido
+                -->
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade"  data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="flores carousel-inner">
 
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="text-center rounded h-100 p-3">
+                                    <!--class="img-fluid" provoca que la imagen se adecue corrrectamente al ancho de su contenedor y no se desborde-->
+                                    <img class="img-fluid mb-3" src="images/flores1.webp" alt="Rosas">
+                                    <h5>Florero con rosas</h5>
+                                    <p class="text-muted small">Usted decide las rosas a poner</p>
+                                </div>
+                            </div>
+                            <!--lg: pantallas grandes se verán cuatro tarjetas
+                            md: pantallas medianas se verán dos tarjetas
+                            mb-4: margen inferior de 4 unidades, esto para que no se peguen las tarjetas en pantallas pequeñas
+                            -->
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="text-center rounded h-100 p-3">
+                                    <img class="img-fluid mb-3" src="images/flores2.webp" alt="Flores moradas">
+                                    <h5>Flores moradas</h5>
+                                    <p class="text-muted small">Como las que reflejan ataques en plantas contra zombies</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="text-center rounded h-100 p-3">
+                                    <img class="img-fluid mb-3" src="images/flores3.webp" alt="Dos flores rojas">
+                                    <h5>Duo dinámico</h5>
+                                    <p class="text-muted small">Dos flores un florero, perfecto</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="text-center rounded h-100 p-3">
+                                    <img class="img-fluid mb-3" src="images/flores4.webp" alt="Flores varias">
+                                    <h5>Flora salvaje</h5>
+                                    <p class="text-muted small">Para los que les gustan las flores de la calle</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="text-center rounded h-100 p-3">
+                                    <img class="img-fluid mb-3" src="images/flores5.webp" alt="Flores varias 2">
+                                    <h5>Wild flowers</h5>
+                                    <p class="text-muted small">Igual que la flora salvaje pero con cache</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="text-center rounded h-100 p-3">
+                                    <img class="img-fluid mb-3" src="images/flores6.webp" alt="Tulipanes">
+                                    <h5>Tulipanes</h5>
+                                    <p class="text-muted small">Todos chiquitos y todos bonitos, Tulipanes</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="text-center rounded h-100 p-3">
+                                    <img class="img-fluid mb-3" src="images/flores7.webp" alt="Una flor verde">
+                                    <h5>Flor verde al agua</h5>
+                                    <p class="text-muted small">Para que te veas fancy en tu oficina</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="text-center rounded h-100 p-3">
+                                    <img class="img-fluid mb-3" src="images/flores8.webp" alt="Florero en forma de gato con flores">
+                                    <h5>Gato floral</h5>
+                                    <p class="text-muted small">Un gato con cola de flores, simplemente miau</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!--Catalogo-->
-    <section>
-
+    <!--Paquetes-->
+    <section class="paquetes mb-5">
+        <div class="conteiner">
+            <h2 class="text-center mt-5">Nuestros paquetes</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="text-center rounded h-100 p-3">
+                        <img class="img-fluid mb-3" src="images/caja1.webp" alt="Fiestas de 15 años">
+                        <p class="d-inline-flex gap-1">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample">
+                            Paquete Económico
+                            </button>
+                        </p>
+                        <div class="row">
+                            <div class="col">
+                                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                    <div class="card card-body">
+                                        Incluye 5 centros de mesa, 4 tipos de flores y una paleta
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center rounded h-100 p-3">
+                        <img class="img-fluid mb-3" src="images/caja2.webp" alt="Fiestas de 15 años">
+                        <p class="d-inline-flex gap-1">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample">
+                            Paquete normal
+                            </button>
+                        </p>
+                        <div class="row">
+                            <div class="col">
+                                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                    <div class="card card-body">
+                                        Incluye 10 centros de mesa, 8 tipos de flores y una bolsa de nueces
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center rounded h-100 p-3">
+                        <img class="img-fluid mb-3" src="images/caja3Nofondo.png" alt="Fiestas de 15 años">
+                        <p class="d-inline-flex gap-1">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample">
+                            Paquete Chido
+                            </button>
+                        </p>
+                        <div class="row">
+                            <div class="col">
+                                <div class="collapse multi-collapse" id="multiCollapseExample3">
+                                    <div class="card card-body">
+                                        Incluye 15 centros de mesa, 12 tipos de flores a escoger y un paquete grande de chocolates Ferrero.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid mb-3" src="images/caja4.webp" alt="Fiestas de 15 años">
+                        <p class="d-inline-flex gap-1">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample">
+                            Paquete Perron
+                            </button>
+                        </p>
+                        <div class="row">
+                            <div class="col">
+                                <div class="collapse multi-collapse" id="multiCollapseExample4">
+                                    <div class="card card-body">
+                                        Incluye 20 centros de mesa, 15 tipos de flores, un diseñador de interiores y 3 litros de helado artesanal del saber que guste
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!--footer-->
     <footer>
+
         <ul id="redesSociales">
-            <li><a href=""><i class="bi bi-facebook"></i></a></li>
-            <li><a href=""><i class="bi bi-instagram"></i></a></li>
-            <li><a href=""><i class="bi bi-twitter-x"></i></a></li>
+            <li><a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
+            <li><a href="https://www.x.com" target="_blank"><i class="bi bi-twitter-x"></i></a></li>
         </ul>
     </footer>
 

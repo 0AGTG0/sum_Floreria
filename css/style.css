@@ -4,6 +4,10 @@
     box-sizing: border-box;  
 }
 
+#logo{
+    max-width: 90px
+}
+
 #menu{
     background-color: rgb(233, 159, 173);
 }
@@ -25,15 +29,38 @@
 }
 
 .eventos img{
-    max-width: 400px;
+    display: inline-block;
+    max-width: 250px;
 }
 
-#logo{
-    max-width: 90px
+.flores img{
+    display: inline-block;
+    max-width: 150px;
+    border-radius: 15px;
+}
+
+#carouselExampleIndicators .carousel-item {
+    /*Color de fondo para los .carousel-item*/
+    background-color: #f8f9fa; 
+    /*Hacer la transición más rápida con .4s, el valor por defecto es .6s*/
+    transition: opacity .4s ease-in-out; 
+}
+
+.paquetes img{
+    display: inline-block;
+    max-width: 250px;
+}
+
+#redesSociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #redesSociales li{
     list-style: none;
+    margin: 10PX;
+    padding-top: 30px; 
 }
 
 #redesSociales li a i{
