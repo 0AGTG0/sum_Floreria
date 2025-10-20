@@ -22,7 +22,7 @@
                 <img id="logo" src="images/logoNoFondo.png" alt="Logo Flores Perronas" class="me-2 rounded logo">
             </a>
             <a class="navbar-brand" href="index.html">Flores Perronas</a>
-            <div id="navegacion" class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="#inicio">Inicio</a>
@@ -43,9 +43,9 @@
 
     <!--encabezado-->
     <header id="inicio" class="inicio">
-        <div class="conteiner-fluid">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <div class="inicio-titulo">
                         <h1 class="text-center">Flores Perronas</h1>
                         <p class="text-center">Las flores más hermosas y chulas para tus eventos</p>
@@ -57,7 +57,7 @@
 
     <!--Eventos-->
     <section id="eventos" class="eventos mb-5">
-        <div class="conteiner">
+        <div class="container">
             <h2 class="text-center mt-5">Eventos que manejamos</h2>
             <div class="row">
                 <div class="col-md-3">
@@ -194,7 +194,7 @@
 
     <!--Paquetes-->
     <section id="paquetes" class="paquetes mb-5">
-        <div class="conteiner">
+        <div class="container">
             <h2 class="text-center mt-5">Nuestros paquetes</h2>
             <div class="row">
                 <div class="col-md-3">
@@ -255,6 +255,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
+                    <div class="text-center rounded h-100 p-3">
                     <img class="img-fluid mb-3" src="images/caja4.webp" alt="Fiestas de 15 años">
                         <p class="d-inline-flex gap-1">
                             <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample">
@@ -265,7 +266,7 @@
                             <div class="col">
                                 <div class="collapse multi-collapse" id="multiCollapseExample4">
                                     <div class="card card-body">
-                                        Incluye 20 centros de mesa, 15 tipos de flores, un diseñador de interiores y 3 litros de helado artesanal del saber que guste
+                                        Incluye 20 centros de mesa, 15 tipos de flores, un diseñador de interiores y 3 litros de helado artesanal del sabor que guste
                                     </div>
                                 </div>
                             </div>
@@ -276,14 +277,52 @@
         </div>
     </section>
 
-    <!--footer-->
-    <footer id="contacto">
-        <p> &copy; 2025 Flores Perronas  |  Contacto: floresPerronas@gmail.com</p>
-        <ul id="redesSociales">
-            <li><a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
-            <li><a href="https://www.x.com" target="_blank"><i class="bi bi-twitter-x"></i></a></li>
-        </ul>
+    <footer id="contacto" class="pt-3 pb-3">
+        <!--text-md-start: hace que a partir de pantallas medianas el contenido se muestre de izquierda a derecha-->
+        <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start">
+                <!--mx-auto: centra la columna horizontalmente si hay espacio de sobra-->
+                <div class="col-md-3 col-lg-3 mx-auto mt-3">
+                    <h5 class="mb-4"><b>FLORES PERRONAS</b></h5>
+                    <p>
+                        Las flores más chidas, padriuris y perronas que veras en el mundo mundial.
+                    </p>
+                    <img src="images/logoNoFondo.png" alt="Logo Flores Perronas"> 
+                </div>
+                <div class="col-md-3 col-lg-2 mx-auto mt-3">
+                    <h5 class="mb-4"><b>CONTACTO</b></h5>
+                    <p><i class="bi bi-geo-alt-fill me-2"></i>León, Guanajuato</p>
+                    <p><i class="bi bi-envelope-fill me-2"></i>floresperronas@gmail.com</p>
+                    <p><i class="bi bi-telephone-fill me-2"></i>+52 123 456 7891</p>
+                    <p><i class="bi bi-clock-fill me-2"></i>Lun - Sab   ||   9:00 - 19:00</p>
+                </div>
+            </div>
+
+        <hr>
+
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p>&copy; 2025 Flores Perronas. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div id="redesSociales" class="text-center text-md-end">
+                        <!--text-inline hace que una lista vertical se presente un una lista horizontal-->
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item">
+                                <!--fs-4: es Font Size de tamaño cuatro-->
+                                <a href="https://www.facebook.com" target="_blank" class="fs-4"><i class="bi bi-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com" target="_blank" class="fs-4"><i class="bi bi-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.x.com" target="_blank" class="fs-4"><i class="bi bi-twitter-x"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!--bootstrap-->

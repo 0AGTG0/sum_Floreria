@@ -12,29 +12,35 @@
     background-color: rgb(233, 159, 173);
 }
 
-#navegacion li a{
+#menu li a{
     font-weight: 500;
     color: white;
 }
 
 .inicio{
-    height: 100vh;
     background-image: url(../images/floreria-haciendo-arreglo-floral-tienda-flores_53876-34631.jpg);
+    height: 100vh;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 
 .inicio-titulo{
     color: white;
     margin-top: 50%;
+    text-align: center;
+    padding: 20px;
 }
 
 .eventos img{
-    display: inline-block;
     max-width: 250px;
+    border-radius: 15px;
 }
 
 .flores img{
-    display: inline-block;
     max-width: 150px;
     border-radius: 15px;
 }
@@ -47,7 +53,6 @@
 }
 
 .paquetes img{
-    display: inline-block;
     max-width: 250px;
 }
 
@@ -58,22 +63,14 @@ footer{
     padding: 10px;
 }
 
-#redesSociales{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#redesSociales li{
-    list-style: none;
-    margin: 10PX;
-    padding-top: 30px; 
+footer img{
+    max-width: 150px;
 }
 
 #redesSociales li a i{
-    filter:brightness(1) ;
+    color: white;
 }
 
-#redesSociales li a i .bi{
-    width: 100px;
+#redesSociales li a i:hover {
+    color: #f8b5c9;
 }
